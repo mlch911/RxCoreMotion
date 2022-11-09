@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/RxSwiftCommunity/RxCoreMotion'
   s.license          = 'MIT'
   s.author           = { 'Carlos García' => 'carlosypunto@gmail.com' }
-  s.source           = { 
+  s.source           = {
                           :git => "https://github.com/RxSwiftCommunity/RxCoreMotion.git",
                           :tag => s.version.to_s
                        }
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '3.0'
   s.source_files = 'Pod/Classes/*.swift'
   s.frameworks = 'Foundation', 'CoreMotion'
-  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'RxSwift', '~> 6.0'
 
 end
